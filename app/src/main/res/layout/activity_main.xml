@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Овог:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Нэр:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Төрсөн он сар өдөр:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Хүйс:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView4.5"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Утасны дугаар:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Гэрийн хаяг:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="156dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="10dp"
+                android:text="Танхим:"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType=" "
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType=" "
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType=" "
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:text="Эрэгтэй" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:text="Эмэгтэй" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType=" "
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType=" "
+                android:textSize="10dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:text="IB" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="155dp"
+                android:layout_height="34dp"
+                android:text="IC" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Бүртгүүлэх" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+
+    </LinearLayout>
+</LinearLayout>
